@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.my-header .logo {
+    width: 50px;
+}
+.my-header h1 {
+    text-shadow: 2px 3px gray;
+    font-size: 3em;
+}
+
+.main-container {
+    width: 100%;
+    background-color: gray;
+    margin: auto;
+}
+.main-container section {
+    padding: 30px;
+}
+.main-container section img {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+    width: 100%;
+    /* border: 2px solid red; */
+    /*     
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    */
+    /* Margin shorthand for all sides*/
+    /* margin: 20px */
+
+    /*top, left and right, bottom*/
+    /* margin: 20px 30px 40px; */
+
+    /*Two margin propertes */
+    /* margin:20px 40px; */
+
+    /*Place items at the center of a container*/
+    margin: auto;
+}
+.main-container section p {
+    /* margin: 20px; */
+    background-color: white;
+    border-left: 20px solid red;
+    /* padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 200px; */
+
+    /*All sides padding with single value*/
+    padding: 20px;
+
+    /* Two sides padding example */
+    /* padding: 200px 40px; */
+
+    /* The sided padding */
+    /* padding: 20px 40px 40px; */
+    text-align: justify;
+}
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fa-whatsapp {
+    color: rgb(148, 222, 148);
+}
+.fa-facebook {
+    color: rgb(46, 46, 155);
+}
